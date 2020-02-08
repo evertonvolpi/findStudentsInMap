@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <header>
+        <h1>CST 8279 Students and Where They Are From</h1>
+    </header>
+
+    <nav>
+        <a href="{{ url_for( 'findStudent' )}}">Find Student</a>
+        <a href="{{ url_for( 'displayAll' )}}">Display All</a>
+    </nav>
+
+{% endblock %}
